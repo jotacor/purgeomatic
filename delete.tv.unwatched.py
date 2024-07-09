@@ -107,7 +107,7 @@ def purge(series):
             + ": "
             + series["title"]
             + " | "
-            + str("{:.2f}".format(totalsize))
+            + str("{:.2f}".format(deletesize))
             + "GB"
             + " | Sonarr ID: "
             + str(sonarr["id"])
